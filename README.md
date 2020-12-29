@@ -36,10 +36,11 @@ Você pode entender um pouco mais sobre o funcionamento do método neste <a href
 <div class=01> 
     <img src="https://user-images.githubusercontent.com/62216467/103294219-29e79480-49d0-11eb-9672-277e47b04cf9.jpeg" width=400 alt="Original">  
 </div>
+<h2>Contatos</h2>
 <p>
-    <a href="https://www.instagram.com/rickson_gm/" target="_blank">Instagram</a>
-    <a href="https://www.gmail.com" target="_blank">ricksonencaut@gmail.com</a>
-    <a href="https://www.linkedin.com/in/rickson-gomes-monteiro-411a2a1a1/" target="_blank">LinkedIN</a>
+    <a href="https://www.instagram.com/rickson_gm/" target="_blank">Instagram</a></br>
+    <a href="https://www.gmail.com" target="_blank">ricksonencaut@gmail.com</a></br>
+    <a href="https://www.linkedin.com/in/rickson-gomes-monteiro-411a2a1a1/" target="_blank">LinkedIN</a></br>
 </p>
 
 
