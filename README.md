@@ -4,7 +4,7 @@ Aplicação em streamlit para análise de filtros e como alteram uma imagem
 <h1>Comparação de Filtros</h1>
 
 <p>Esta aplicação foi o primeiro projeto apresentado de forma mais simples na MasterClass de Visão Computacional disponibilizada pelo Carlos Melos.
-No desenvolvimento do projeto acrescentei algumas controles por slide. O tamanho do Kernel do <a>filtro gaussiano</a>. Dessa forma, foi possivel analisar como as suas dimensão influênciam na suavização causada na imagem, quanto maior o tamanho do kernel,  maior o desfoque
+No desenvolvimento do projeto acrescentei algumas controles por slide. O tamanho do Kernel do <a href="https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_filtering/py_filtering.html#gaussian-filtering" target="_blank">filtro gaussiano</a>. Dessa forma, foi possivel analisar como as suas dimensão influênciam na suavização causada na imagem, quanto maior o tamanho do kernel,  maior o desfoque
 podemos ver a comparação abaixo:</p>
 <div class=01> 
     <img src="https://user-images.githubusercontent.com/62216467/103288036-c1de8180-49c2-11eb-8e1d-408570b333d6.jpeg" width=300 alt="Original">  
@@ -18,7 +18,7 @@ O critério que utilizei foi uma maior facilidade em distinguir as trocas de  co
 </p>
 <h2>Detector de Bordas</h2>
 <p>De mesmo modo, criei uma aplicação semelhante para analisar o  comportamento do algoritimo Canny para detecção de bordas e como ele se comporta com a variação dos tresholds impostos, bem como com a variação do kernel usado no filtro gaussiano aplicado antes do algoritmo para redução de ruídos. 
-Você pode entender um pouco mais sobre o funcionamento do método neste <a>link</a>. Abaixo temos a imagem após a aplicação do algoritmo</p>
+Você pode entender um pouco mais sobre o funcionamento do método neste <a href="https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_canny/py_canny.html" target="_blank">link</a>. Abaixo temos a imagem após a aplicação do algoritmo</p>
 <div class=01> 
     <img src="https://user-images.githubusercontent.com/62216467/103288036-c1de8180-49c2-11eb-8e1d-408570b333d6.jpeg" width=400 alt="Original">  
     <img src="https://user-images.githubusercontent.com/62216467/103291776-446b3f00-49cb-11eb-8046-dcba717d2397.jpeg" width=400 alt="Canny"> 
@@ -36,6 +36,11 @@ Você pode entender um pouco mais sobre o funcionamento do método neste <a>link
 <div class=01> 
     <img src="https://user-images.githubusercontent.com/62216467/103294219-29e79480-49d0-11eb-9672-277e47b04cf9.jpeg" width=400 alt="Original">  
 </div>
+<p>
+    <a href="https://www.instagram.com/rickson_gm/" target="_blank">Instagram</a>
+    <a href="https://www.gmail.com" target="_blank">ricksonencaut@gmail.com</a>
+    <a href="https://www.linkedin.com/in/rickson-gomes-monteiro-411a2a1a1/" target="_blank">LinkedIN</a>
+</p>
 
 
 
