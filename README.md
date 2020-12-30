@@ -14,7 +14,7 @@ podemos ver a comparação abaixo:</p>
 </br>
 <p>Acima temos, respectivamente a imagem original, após aplicação do filtro gaussiano com kernel (9x9) e com Kernel (15x15).
 Vale Ressaltar que foi utilizado o borderType=cv2.BORDER_DEFAULT, em algumas comparações que fiz, percebi que a escolha desse parâmetro gera uma menor conservação de bordas em comparação com cv2.BORDER_CONSTANT, mas melhor que os cv2.BORDER_TRANSPARENT e cv2.BORDER_ISOLATED. 
-O critério que utilizei foi uma maior facilidade em distinguir as trocas de  cores em diferentes pontos da imagem. "Onde ainda seria parte da blusa ou parte do fundo após um desfoque alto".
+O critério que utilizei foi qual dos parâmetros gerariam, uma maior facilidade em distinguir as trocas de cores e elementos em diferentes pontos da imagem após um alto desfoque.
 </p>
 <h2>Detector de Bordas</h2>
 <p>De mesmo modo, criei uma aplicação semelhante para analisar o  comportamento do algoritimo Canny para detecção de bordas e como ele se comporta com a variação dos tresholds impostos, bem como com a variação do kernel usado no filtro gaussiano aplicado antes do algoritmo para redução de ruídos. 
