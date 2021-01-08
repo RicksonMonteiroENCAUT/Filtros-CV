@@ -34,7 +34,7 @@ def main():
                 img_convert=np.array(image.convert('RGB'))
                 gray= cv2.cvtColor(img_convert,cv2.COLOR_RGB2GRAY)
                 negativo=cv2.bitwise_not(gray)
-                blur=cv2.GaussianBlur(gray,(25,25), cv2.BORDER_CONSTANT)
+                blur=cv2.GaussianBlur(negativo,(25,25), cv2.BORDER_CONSTANT)
                 sketch=cv2.divide(gray,cv2.bitwise_not(blur),scale=256)
                 st.image(sketch, width=720)
 
